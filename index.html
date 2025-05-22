@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
-    <title>Dashboard CUPOLA</title>
+    <meta charset="UTF-8" />
+    <title>Painel de Vendas CUPOLA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PPEL4E0HJN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-PPEL4E0HJN");
+    </script>
+
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        border: none;
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
   </head>
-  <body style="margin:0;height:100vh;">
+
+  <body>
     <iframe
       src="https://lookerstudio.google.com/embed/reporting/6f9b1ee9-3092-4936-9b3c-5decf12db92a/page/page_12345"
-      width="100%"
-      height="100%"
-      frameborder="0"
       allowfullscreen
     ></iframe>
   </body>
